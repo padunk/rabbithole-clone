@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.hero-section:before {
+  content: "";
+  background-color: blueviolet;
+  background-image: url("/rh-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-section {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: calc(110vh + 100px);
+}
